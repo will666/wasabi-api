@@ -1,0 +1,20 @@
+{
+  "name": "api.liamvalentin.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/api.liamvalentin.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0"
+  },
+  "dependencies": {}
+}

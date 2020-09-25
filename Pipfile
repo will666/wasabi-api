@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pre-commit = "*"
+pycodestyle = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+boto3 = "*"
+python-dotenv = "*"
+mangum = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+dev = "python3 run.py"
+dev-setup = "pre-commit install"
+format = "autopep8 --in-place"
